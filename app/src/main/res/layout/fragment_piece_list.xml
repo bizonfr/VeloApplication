@@ -4,14 +4,39 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
+    <com.project.wissemcomp.veloapp.EmptyRecyclerView
         android:id="@+id/recycler_view_piece"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/activity_vertical_margin"
         android:clipToPadding="false"
         android:layout_margin="4dp"/>
+    <LinearLayout
+        android:id="@+id/todo_list_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add"
+            android:tint="@color/gris"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajoutez un type de pièce."
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Touchez le + en haut à droite de l'écran."/>
+
+
+    </LinearLayout>
 
     <ProgressBar
         android:id="@+id/progress_bar_piece"
