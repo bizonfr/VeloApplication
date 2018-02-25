@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#fd5c4f</color>
+    <color name="colorPrimary">#fd7166</color>
+    <color name="colorLine">#39666666</color>
+    <color name="colorAccent">#077105</color>
+    <color name="colorCheckBoxUnchecked">#fc464a</color>
+    <color name="colorCheckBoxChecked">#9aca27</color>
+    <color name="backgroundButtonBike">#fd7166</color>
+    <color name="colorTextButtonBike">#ffffff</color>
+    <color name="backgroundButtonSales">#93c032</color>
+    <color name="colorTextButtonSales">#ffffff</color>
+    <color name="backgroundButtonPieces">#22a6fb</color>
+    <color name="colorTextButtonPieces">#ffffff</color>
+    <color name="selectable_pressed">#99BDBDBD</color>
+    <color name="white">#ffffff</color>
+    <color name="primary">#ffffff</color>
+    <color name="primary_pressed">#f0f0f0</color>
+    <color name="ripple">#fff000</color>
+    <color name="redCost">#fc464a</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorRipple">#32868686</color>
+
+    //action bar colors
+
+    <color name="statusbar_velo">#fd5c4f</color>
+    <color name="actionbar_velo">#fd7166</color>
+
+    <color name="statusbar_piece">#058ee6</color>
+    <color name="actionbar_piece">#22a6fb</color>
+
+    //piece list
+
+    <color name="backgroundItemPiece">#d2eefe</color>
+
+
+</resources>

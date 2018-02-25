@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pieces_type">
+        <item>Frein</item>
+        <item>Roue</item>
+        <item>Chambre à air</item>
+        <item>Pédale</item>
+    </string-array>
+</resources>

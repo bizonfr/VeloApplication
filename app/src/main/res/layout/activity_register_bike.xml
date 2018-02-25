@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context="com.project.wissemcomp.veloapp.RegisterBikeActivity"
+    android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/empty_picture"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@android:color/darker_gray"
+            android:layout_gravity="center_horizontal"
+            android:elevation="8dp"/>
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/reg_bike_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom du vélo"
+            app:met_floatingLabelText="NOM DU VÉLO"
+            app:met_floatingLabel="highlight"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/reg_bike_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Prix"
+                    app:met_floatingLabelText="PRIX"
+                    app:met_floatingLabel="highlight" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/reg_bike_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Date d'achat"
+                    app:met_floatingLabelText="DATE D'ACHAT"
+                    app:met_floatingLabel="highlight" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/reg_bike_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="DESCRIPTION"
+            android:maxLines="4"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:elevation="8dp"
+            >
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:layout_alignParentBottom="true"
+                android:id="@+id/btnAddBike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Ajouter"
+                app:spinning_bar_width="4dp"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+               />
+
+        </RelativeLayout>
+
+
+</LinearLayout>
